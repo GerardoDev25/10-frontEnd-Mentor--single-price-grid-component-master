@@ -13,7 +13,7 @@
    --Grayish-Blue: hsl(218, 22%, 67%);
 
    font-size: 16px;
-   
+
    font-family: "Karla", sans-serif;
 }
 
@@ -30,8 +30,142 @@
 html,
 body {
    width: 100vw;
-   height: 150vh;
+   height: 120vh;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: var(--Light-Gray);
+}
+
+/* ***************************************** */
+/* ? **************** main ***************** */
+/* ***************************************** */
+main {
+   /* border: 2px dotted black; */
+   height: 90%;
+   width: 90%;
+   min-width: 345px;
+   min-height: 700px;
+   max-height: 900px;
+
+   background-color: white;
+   border-radius: .3rem;
+   overflow: hidden;
+
+}
+
+h2,
+p {
+   padding: 0;
+   margin: 0;
+}
+
+section {
+   padding: 1.4rem;
+   width: calc(100% - 2.8rem);
+   /* border: 2px dotted violet; */
+}
+
+/* ***************************************** */
+/* ? **************** box-1 **************** */
+/* ***************************************** */
+
+.box-1 {
+   height: calc(35% - 2.8rem);
+}
+
+.box-1 .top {
+   height: 50%;
+}
+
+.box-1 h2 {
+   color: var(--Cyan);
+   padding-bottom: 1.3rem;
+}
+.box-1 strong {
+   color: var(--Bright-Yellow);
+   font-size: 1.1rem;
+   padding-bottom: 1.3rem;
+}
+
+.box-1 p {
+   height: 50%;
+   color: var(--Grayish-Blue);
+   line-height: 1.6rem;
+}
+
+/* ***************************************** */
+/* ? **************** box-2 **************** */
+/* ***************************************** */
+
+.box-2 {
+   height: calc(32% - 2.8rem);
+   color: white;
+   background-color: var();
+   background-color: var(--Cyan);
+}
+
+.box-2 .top {
+   height: 70%;
+}
+
+.box-2 h2 {
+   font-size: 1.2rem;
+   margin-bottom: 1.4rem;
+}
+
+.p-1 {
+   margin-bottom: 0.5rem;
+   font-size: 2.2rem;
+}
+.p-1 strong {
+   opacity: 0.6;
+   font-weight: 400;
+   font-size: 1rem;
+}
+
+.p-2 {
+   opacity: 0.9;
+}
+
+.box-2 .button {
+   height: 30%;
+   width: 100%;
+}
+.button button {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   height: 3rem;
+   border-radius: 0.3rem;
+   border: none;
+   background-color: var(--Bright-Yellow);
+   color: white;
+   font-size: 1.1rem;
+   box-shadow: 0 4px 10px rgba(92, 91, 91, 0.5);
+}
+
+/* ***************************************** */
+/* ? **************** box-3 **************** */
+/* ***************************************** */
+
+.box-3 {
+   height: calc(33% - 2.8rem);
+   color: white;
+   background-color: hsla(179, 62%, 43%, 0.8);
+}
+
+.box-3 h2 {
+   font-size: 1.2rem;
+   margin: 1rem 0;
+}
+.box-3 ul {
+   margin-top: 1.5rem;
+   padding-left: 0;
+}
+.box-3 li {
+   font-size: 0.9rem;
+   opacity: 0.8;
+   list-style: none;
+   padding-bottom: 0.3rem;
 }
